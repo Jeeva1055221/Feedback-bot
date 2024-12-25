@@ -178,7 +178,7 @@ async def donate(bot, message):
         return
         
     await message.reply_text(
-        text=C.DONATE + "If You Liked This Bot You Can Also Donate Creator through BTC 1) Phonepe 2) Gpay 3) Paytm & Any UPI Apps `pklinkzzadmin@ybl` ",
+        text=C.DONATE + "<b>⚡ Oᴜʀ ᴡᴏʀᴋɪɴɢ ʙᴏᴛs ʟɪsᴛ ⚡\n\nAᴜᴛᴏғɪʟᴛᴇʀ #1 ✔️\n╰┈➤ @RoxyX2_Bot\n\nAᴜᴛᴏғɪʟᴛᴇʀ #2 ✔️\n╰┈➤@Roxy_Filesbot\n\n Fɪʟᴇ sᴛᴏʀᴇ & sᴛʀᴇᴀᴍ✔️\n╰┈➤@FileXPost_Bot\n\n𝟷Tᴀᴍɪʟᴍᴠ sᴄʀᴀᴘᴇʀʙᴏᴛ (ʀss)✔️\n\nIғ ʏᴏᴜ ʟɪᴋᴇᴅ ᴏᴜʀ ʙᴏᴛ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴅᴏɴᴀᴛᴇ ᴄʀᴇᴀᴛᴏʀ ᴛʜʀᴏᴜɢʜ ᴜᴘɪ ᴀᴘᴘs `pklinkzzadmin@ybl`\n\n📢Aʟʟ Bᴏᴛs Uᴘᴅᴀᴛᴇᴅ Oᴜʀ Cʜᴀɴɴᴇʟ Cʜᴇᴄᴋ.\n\n🢂 ‼️ 𝐍𝐎𝐓𝐄 ‼️\n\n Iғ Aɴʏᴏɴᴇ Wᴀɴᴀ I Mᴀᴅᴇ Pᴀɪᴅ💸 Bᴏᴛ Fᴏʀ Uʜ Tʜᴇɴ Msɢ Hᴇʀᴇ\n\n\n 📍𝘿𝙈 :- @CloudxAdmin_Bot </b> ",
         reply_markup=InlineKeyboardMarkup([
             [ InlineKeyboardButton(text="DONATE", url=f"{donate_link}")]
         ])
