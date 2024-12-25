@@ -178,7 +178,7 @@ async def donate(bot, message):
         return
         
     await message.reply_text(
-        text=C.DONATE + "If You Liked This Bot You Can Also Donate Creator through BTC `3AKE4bNwb9TsgaofLQxHAGCR9w2ftwFs2R`",
+        text=C.DONATE + "If You Liked This Bot You Can Also Donate Creator through BTC 1) Phonepe 2) Gpay 3) Paytm & Any UPI Apps `pklinkzzadmin@ybl` ",
         reply_markup=InlineKeyboardMarkup([
             [ InlineKeyboardButton(text="DONATE", url=f"{donate_link}")]
         ])
