@@ -2,15 +2,15 @@ import os
 
 class Config(object):
 
-    API_ID = int(os.environ.get("API_ID", 16023154))
+    API_ID = int(os.environ.get("API_ID", 22977776))
 
-    API_HASH = str(os.environ.get("API_HASH", "c216393ab439dd055858680916a3444b"))
+    API_HASH = str(os.environ.get("API_HASH", "2ac7223d720bdeec757cbc88ced57224"))
 
-    BOT_TOKEN = str(os.environ.get("BOT_TOKEN", "8084082805:AAEVFYl9JFVYgHRWRE04USrjnR3AKoh8sb8"))
+    BOT_TOKEN = str(os.environ.get("BOT_TOKEN", "7869073583:AAFFNhECe4jwa_OZTPVTm5TgDuhTwEMArM0"))
     
-    OWNER_ID = int(os.environ.get("OWNER_ID", 1397269319))
+    OWNER_ID = int(os.environ.get("OWNER_ID", 7544529898))
 
-    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "1397269319").split())
+    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "7544529898").split())
 
     START = str(os.environ.get("START_TEXT", "<b> Dᴇᴀʀ Usᴇʀs 🍁 I am CloudXBotz ADMIN Support📢\n\n✪ How can I Help You? Need Help /help </b> "))
 
@@ -24,11 +24,11 @@ class Config(object):
 
     SUPPORT_GROUP = str(os.environ.get("SUPPORT_GROUP", "https://t.me/+Bs3lkePlgs44NjI1"))
 
-    DB_URL = str(os.environ.get("DB_URL", "mongodb+srv://techbots203:jXjEjUeBZnQJu6zU@feedbackbot.plubg.mongodb.net/?retryWrites=true&w=majority&appName=feedbackbot"))
+    DB_URL = str(os.environ.get("DB_URL", "mongodb+srv://jeevanantham8157:1055221@heartai.9wl5t.mongodb.net/?retryWrites=true&w=majority&appName=HeartAI"))
     
     DB_NAME = str(os.environ.get("DB_NAME", "feedbackbot"))
     
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001740524004"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002691480602"))
 
     BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
 
